@@ -3,9 +3,26 @@
 :root{
     --dark-color: #19283f;
     --sec-color : #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
 }
 
 
+
+/* Start Components */
+
+.main-btn{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+}
+
+.main-btn:hover{
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+}
+
+/* End Components */
 
 /* GLobal Rules */
 
@@ -51,3 +68,14 @@ body{
 }
 
 /* End Header */
+
+
+/* Start Landing */
+
+.landing{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
+
+
+/* End Landing */
