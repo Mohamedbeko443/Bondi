@@ -188,7 +188,16 @@ body{
 
 .team .box h4{
     background-color: var(--sec-color);
-    
+
 }
 
 /* End Team */
+
+
+/* Start Project */
+
+.project{
+    background-color: var(--dark-color);
+}
+
+/* End Project */
