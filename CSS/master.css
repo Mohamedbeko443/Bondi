@@ -167,3 +167,11 @@ body{
 }
 
 /* End Work */
+
+/* Start Stuff */
+
+.stuff .des{
+    max-width: 500px;
+}
+
+/* End Stuff */
